@@ -37,8 +37,8 @@ class FileReader:
 
 
 if __name__ == "__main__":
-    folder_path = "descriptions"  # Ma'lumotlar uchun papkangizning nomi
-    csv_file_path = "output.csv"  # CSV fayli uchun nom
+    folder_path = "descriptions"
+    csv_file_path = "output.csv"
 
     file_reader = FileReader(folder_path)
     data_list = file_reader.read_files()
